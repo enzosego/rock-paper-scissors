@@ -1,0 +1,38 @@
+body {
+    background-color: #BFB48F;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h1 {
+    padding-right: 4%;
+}
+
+#bContainer {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+#middle {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.button {
+    outline: none;
+}
+
+.button:active {
+    transform: translateY(7px);
+}
